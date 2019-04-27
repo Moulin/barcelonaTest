@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Context reloadable="true" privileged="true">
+
+<ResourceLink name="datasources/exemplo-ksadb01-ora"
+ 	  global="datasources/exemplo-ksadb01-ora"
+  	  type="javax.sql.DataSource"/>   
+  	  
+<ResourceLink name="datasources/exemplo-ieab01-ora"
+ 	  global="datasources/exemplo-ieadb01-ora"
+  	  type="javax.sql.DataSource"/>   
+  	  
+<ResourceLink name="datasources/exemplo-db01-db2"
+ 	  global="datasources/exemplo-db01-db2"
+  	  type="javax.sql.DataSource"/>     	    	  
+
+</Context>

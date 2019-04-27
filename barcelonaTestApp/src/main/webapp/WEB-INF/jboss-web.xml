@@ -1,0 +1,20 @@
+<jboss-web>  
+
+	<context-root>exemplo</context-root>
+	
+	<resource-ref id="exemplo-ksadb01-ora">
+	   <res-ref-name>datasources/exemplo-ksadb01-ora</res-ref-name>
+	   <jndi-name>java:jboss/datasources/exemplo-ksadb01-ora</jndi-name>
+	</resource-ref> 
+	
+	<resource-ref id="exemplo-ieadb01-ora">
+	   <res-ref-name>datasources/exemplo-ieadb01-ora</res-ref-name>
+	   <jndi-name>java:jboss/datasources/exemplo-ieadb01-ora</jndi-name>
+	</resource-ref>   
+	
+	<resource-ref id="exemplo-db01-db2">
+	   <res-ref-name>datasources/exemplo-db01-db2</res-ref-name>
+	   <jndi-name>java:jboss/datasources/exemplo-db01-db2</jndi-name>
+	</resource-ref>  
+	
+</jboss-web>  

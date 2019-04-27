@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.altran.rmleite</groupId>
+	<artifactId>barcelonaTest</artifactId>
+	<name>barcelonaTest :: Main Project</name>
+	<version>1.0.1</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<project.version>1.0.0</project.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
+		<compileSource>1.8</compileSource>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		
+		<!-- Modulo App -->	
+		<cxf.version>3.2.5</cxf.version>
+		<cxf.scope>compile</cxf.scope>
+		<springboot.version>1.5.16.RELEASE</springboot.version>
+		<spring.version>4.3.19.RELEASE</spring.version>
+		<warplugin.version>2.6</warplugin.version>
+		<servletapi.version>3.1.0</servletapi.version>
+		<jaxwsapi.version>2.2.11</jaxwsapi.version>
+		<jsonwebtoken.version>0.6.0</jsonwebtoken.version>
+		<commonscodec.version>1.10</commonscodec.version>
+		<tokenhmac.version>1.0.3-60-RELEASE</tokenhmac.version>
+		<hikari.version>2.5.1</hikari.version>
+		<ojdbc.version>11.2.0.3</ojdbc.version>
+		<db2jcc4.version>10.1</db2jcc4.version>
+		<sascredential.version>1.0.2-RELEASE</sascredential.version>
+		
+		<!-- Modulo Componentes -->
+		<logback.version>0.1.5</logback.version>
+		<janino.version>3.0.7</janino.version>
+		<rootArtifactId>autonomedaaplicacaoSpringBootApp</rootArtifactId>
+		<jackson.version>2.7.5</jackson.version>		
+	</properties>
+
+  <modules>
+    <module>barcelonaTestComponents</module>
+    <module>barcelonaTestApp</module>
+  </modules>
+</project>
